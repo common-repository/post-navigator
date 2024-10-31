@@ -1,0 +1,40 @@
+/* Post page styles */
+#post-navigator {
+	
+}
+
+	#post-navigator span#action-box {
+		display: block;
+		min-height: 25px;
+		padding: 2px 0 1px 21px;
+		position: relative;
+		background: transparent url( '../images/action.png' ) 0 5px no-repeat;	
+	}
+	
+	  #post-navigator span#action-box.ajax {
+	    background: transparent url( '../images/ajax-loader.gif' ) 0 5px no-repeat !important;
+	  }
+	
+	#post-navigator span.action-title {
+		padding: 3px 0 0 0;
+		display: inline-block;
+	}
+	
+	#post-navigator select {
+		width: 67%;
+		font-size: 12px;
+		float: right;
+	}
+	
+	#post-navigator #post-save-action-id-parent {
+	  display: none;
+	}
+	
+/* Option page styles */
+#post-navigator-settings {
+
+}
+
+	#post-navigator-settings em {
+		color: #999999;
+	}
